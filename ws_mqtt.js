@@ -141,7 +141,7 @@
 				type_name : "ws_mqtt",
 				display_name : "MQTT over websockets",
 				description : "A real-time stream datasource using MQTT over websockets.",
-				external_scripts : ["http://www.penninkshof16.nl/freeboard/ws/simple-mqtt-websocket-example/mqttws31.js"],
+				external_scripts : ["/freeboard/plugins/thirdparty/mqttws31.js"],
 				settings : [
 						{
 							name : "url",
